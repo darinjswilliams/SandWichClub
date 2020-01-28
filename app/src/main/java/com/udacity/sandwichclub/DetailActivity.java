@@ -74,15 +74,7 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void populateUI(Sandwich sandwich){
-    //TODO update method to populate UI
-//    TextView alsoKnowAsTitle = (TextView) findViewById(R.id.also_know_as_title);
 
-//    List<String> aknowAsList = sandwich.getAlsoKnownAs();
-
-//    if(aknowAsList.size() == 0) {
-//        alsoKnowAsTitle.setVisibility(View.GONE);
-//        mAlsoKnowAsTextView.setVisibility(View.GONE);
-//    }
     mOriginTextView.setText(sandwich.getPlaceOfOrigin());
 
     if(sandwich.getAlsoKnownAs()  != null ){
